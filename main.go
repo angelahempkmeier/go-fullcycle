@@ -1,5 +1,14 @@
 package main
 
+type Car struct {
+	Model string
+	Color string
+}
+
 func main() {
-	println("hello world")
+	car := Car{
+		Model: "Ferrari",
+		Color: "Red",
+	}
+	println(car.Model)
 }
